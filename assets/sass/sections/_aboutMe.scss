@@ -95,6 +95,7 @@
             .name {
                 color: $primaryColor;
                 font-size: 14px;
+                font-weight: 700;
             }
 
             .percent {
@@ -114,6 +115,54 @@
                     height: 100%;
                     background-color: $progressBarColor;
                     border-radius: 4px;
+                }
+            }
+        }
+    }
+}
+
+.timeline {
+    .item {
+        display: flex;
+
+        .date {
+            flex: 0 0 100px;
+            text-align: right;
+        }
+
+        .bar {
+            flex: 0 0 50px;
+            position: relative;
+
+            &::after {
+                content: '';
+                width: 1px;
+                height: 100%;
+                background-color: $progressBarBgColor;
+                position: absolute;
+                inset: 0 0 0 50%;
+                transform: -50% 0;
+            }
+
+            .dot {
+                width: 21px;
+                height: 21px;
+                border-radius: 50%;
+                background-color: $timelineDotBgColor;
+                position: relative;
+                z-index: 1;
+                margin: 10px auto 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &::after {
+                    content: '';
+                    width: 13px;
+                    height: 13px;
+                    background-color: #ffffff;
+                    border-radius: 50%;
+                    border: 2px solid $progressBarColor;
                 }
             }
         }
