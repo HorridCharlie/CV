@@ -128,6 +128,16 @@
         .date {
             flex: 0 0 100px;
             text-align: right;
+
+            .year {
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .place {
+                font-size: 13px;
+                color: $personInfoAboutMe;
+            }
         }
 
         .bar {
@@ -164,6 +174,20 @@
                     border-radius: 50%;
                     border: 2px solid $progressBarColor;
                 }
+            }
+        }
+
+        .info {
+            .tittle {
+                margin: 13px 0;
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            .description {
+                margin: 6px 0;
+                font-size: 14px;
+                color: $secondaryColor;
             }
         }
     }

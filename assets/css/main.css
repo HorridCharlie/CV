@@ -522,6 +522,14 @@ body {
           flex: 0 0 100px;
   text-align: right;
 }
+.timeline .item .date .year {
+  font-size: 14px;
+  font-weight: 700;
+}
+.timeline .item .date .place {
+  font-size: 13px;
+  color: #9baab3;
+}
 .timeline .item .bar {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50px;
@@ -563,4 +571,14 @@ body {
   background-color: #ffffff;
   border-radius: 50%;
   border: 2px solid #56b887;
+}
+.timeline .item .info .tittle {
+  margin: 13px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+.timeline .item .info .description {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #555;
 }
