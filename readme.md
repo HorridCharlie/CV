@@ -5,4 +5,5 @@ technology wchich i use to create this project
 * sass
 * js
 * git
-[my cv] (https://horridcharlie.github.io/CV/)
+
+[my cv](https://horridcharlie.github.io/CV/)
