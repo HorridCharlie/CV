@@ -17,9 +17,7 @@
 </head>
 
 <body>
-
     <main class="page">
-
         <div class="header">
             <div class="photo">
                 <img src="assets/img/main_photo.jpg" alt="">
@@ -37,8 +35,10 @@
             <p class="mail">
                 <a href="maito:zelek@gmail.com">alex@smith.com</a>
             </p>
+            <a href="#" class="btn btn-trn">
+                Download CV
+            </a>
         </div>
-
         <div class="content">
             <section class="aboutMe section active">
                 <div class="person">
@@ -54,12 +54,16 @@
                             incidunt unde numquam commodi sapiente cupiditate aperiam corrupti eaque. Dolor debitis
                             perspiciatis placeat optio reprehenderit, dolore sint quas?
                         </p>
+                        <a href="#" class="btn btn-grn">
+                            Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-wht">
+                            Contact
+                        </a>
                     </div>
-
                     <div class="personPhoto">
                         <img src="assets/img/main_photo_1.jpg" alt="">
                     </div>
-
                 </div>
                 <div class="container">
                     <div class="stats">
@@ -85,7 +89,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="design-skills">
                         <div class="skill">
                             <div class="skill-top">
@@ -109,7 +112,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="timeline">
                             <div class="item">
                                 <div class="date">
@@ -146,18 +148,81 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
-
-            <section class="section contact">
-                Dokodować kontakt
+            <section class="section contact" id="contact">
+                <div class="container">
+                    <h2>Contact</h2>
+                    <h4>Get in Touch</h4>
+                    <div class="contacts">
+                        <div class="contact-item">
+                            <div class="outline">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p class="tittle">San Francisco</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="outline">
+                                <i class="fa-solid fa-phone"></i>
+                                <p class="tittle">415-832-2000</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="outline">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p class="tittle">alex@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="google-maps" style="width: 100%"><iframe width="100%" height="200" frameborder="0"
+                            scrolling="no" marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=Townsend%20St%20San%20Francisco,%20CA%20Stany%20Zjednoczone+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                                href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe>
+                    </div>
+                    <div class="form">
+                        <form action="" method="get" enctype="multipart/form-data" class="contact-form">
+                            <div class="block-title">
+                                <p>
+                                    How can I help you?
+                                </p>
+                            </div>
+                            <div class="columns">
+                                <div class="left-column">
+                                    <input class="row" type="email" name="person" id="i-person" placeholder="Full Name"
+                                        value="">
+                                    <input class="row" type="email" name="email" id="i-mail" placeholder="Email Adress"
+                                        value="">
+                                    <input class="row" type="text" name="subject" id="i-subject" placeholder="Subject"
+                                        value="">
+                                </div>
+                                <div class="right-column">
+                                    <textarea class="row" style="height:168px;width:220px" name="msg" id="t-msg"
+                                        placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI">
+                                <div style="width: 304px; height: 78px;">
+                                    <div><iframe title="reCAPTCHA"
+                                            src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI&amp;co=aHR0cHM6Ly9sbXBpeGVscy5jb206NDQz&amp;hl=pl&amp;v=sNQO7xVld1CuA2hfFHvkpVL-&amp;size=normal&amp;cb=1hbxvcc8xifj"
+                                            width="304" height="78" role="presentation" name="a-x7wcyjs6lihy"
+                                            frameborder="0" scrolling="no"
+                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                                    </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                        class="g-recaptcha-response"
+                                        style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                </div><iframe style="display: none;"></iframe>
+                            </div>
+                            <div class="submit">
+                                <button type="submit" class="btn btn-grn">Send message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </section>
-
             <div class="side-menu">
-                <a href="#" class="active" data-class="aboutMe"><i class="fa-solid fa-user"></i></a>
-                <a href="#" data-class="contact"><i class="fa-regular fa-address-book"></i></a>
+                <a href="#" class="active" data-class="aboutMe"><i class="fa-regular fa-user"></i></a>
+                <a href="#" data-class="contact"><i class="fa-regular fa-envelope"></i></a>
             </div>
             <div class="navigation-arrow">
                 <a href="#"><i class="fa-solid fa-chevron-left"></i></a>
@@ -165,9 +230,7 @@
             </div>
         </div>
     </main>
-
     <script src="assets/js/app.js"></script>
-
 </body>
 
 </html>

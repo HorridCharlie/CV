@@ -1,0 +1,75 @@
+// .btn {
+//     display: inline-block;
+//     padding: 12px 32px;
+//     border-radius: 5px;
+//     transition: 500ms;
+//     border: 2px solid $btnPrimaryFontColor;
+//     background-color: $btnPrimaryBgColor;
+//     color: $btnPrimaryFontColor;
+
+//     &:hover {
+//         transform: translateY(-4px);
+//         transition: 300ms;
+//         box-shadow: 0 4px 8px #0000003d;
+//     }
+// }
+
+.btn-wht {
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 5px;
+    transition: 700ms;
+    border: 2px solid $btnPrimaryFontColor;
+    background-color: $btnPrimaryBgColor;
+    color: $btnPrimaryFontColor;
+    box-shadow: 0 1px 5px rgb(0 0 0/15%);
+
+    &:hover {
+        transform: translateY(-4px);
+        transition: 500ms;
+        box-shadow: 0 4px 8px #0000003d;
+        border: 2px solid $btnPrimaryFontColor;
+        background-color: $btnPrimaryFontColor;
+        color: $btnPrimaryBgColor;
+    }
+}
+
+.btn-trn {
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 5px;
+    transition: 700ms;
+    border: 2px solid $btnPrimaryBgColor;
+    background-color: transparent;
+    color: $btnSecondaryFontColor;
+    box-shadow: 0 1px 5px rgb(0 0 0/15%);
+
+    &:hover {
+        transform: translateY(-4px);
+        transition: 500ms;
+        box-shadow: 0 4px 8px #0000003d;
+        border: 2px solid $btnPrimaryBgColor;
+        background-color: $btnPrimaryBgColor;
+        color: $btnPrimaryFontColor;
+    }
+}
+
+.btn-grn {
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 5px;
+    transition: 700ms;
+    border: 2px solid $btnSecondaryBgColor;
+    background-color: $btnSecondaryBgColor;
+    color: $btnSecondaryFontColor;
+    box-shadow: 0 1px 5px rgb(0 0 0/15%);
+
+    &:hover {
+        transform: translateY(-4px);
+        transition: 500ms;
+        box-shadow: 0 4px 8px #0000003d;
+        border: 2px solid $btnSecondaryBgColor;
+        background-color: $btnPrimaryBgColor;
+        color: $btnPrimaryFontColor;
+    }
+}
